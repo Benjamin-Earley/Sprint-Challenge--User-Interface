@@ -243,9 +243,11 @@ footer nav a {
 .mid-section {
     display: flex;
     margin: 10px 2% 0 2%;
+    justify-content: space-between;
 }
  
 .mid-section .m-s {
+    width: 370px;
     margin-top: 20px;
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
@@ -256,9 +258,11 @@ footer nav a {
 .mid-section2 {
     display: flex;
     margin: 0 2% 0 2%;
+    justify-content: space-between;
 }
 
 .mid-section2 .m-s {
+    width: 370px;
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
     margin-bottom: 45px;
