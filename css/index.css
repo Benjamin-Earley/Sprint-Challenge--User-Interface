@@ -228,41 +228,45 @@ footer nav a {
     margin: 0 auto;
 }
 
-.about-img {
+.container-about .about-img {
     margin-top: 40px;
-    margin-bottom: 20px;
 }
 
 .top-section {
-    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-section .ts-text {
+    margin: 20px 2% 20px;
 }
 
 .mid-section {
-    width: 750px;
-    border-top: 1px dashed black;
     display: flex;
-    justify-content: space-between;
+    margin: 10px 2% 0 2%;
 }
  
 .mid-section .m-s {
+    margin-top: 20px;
+    padding-bottom: 15px;
     border-bottom: 1px dashed black;
     margin-bottom: 45px;
     flex-direction: column;
-    align-items: center;
 }
 
 .mid-section2 {
-    width: 750px;
-    border-top: 1px dashed black;
     display: flex;
-    justify-content: space-between;
+    margin: 0 2% 0 2%;
 }
 
 .mid-section2 .m-s {
+    padding-bottom: 15px;
     border-bottom: 1px dashed black;
     margin-bottom: 45px;
     flex-direction: column;
-    align-items: flex-start;
+}
+
+.mid-imgs {
+    padding-bottom: 10px;
 }
 
 .bottom-section {
@@ -270,11 +274,13 @@ footer nav a {
 }
 
 .m-s button {
-    border: 1px double black;
+    border: 2px solid black;
+    border-radius: 10px;
     font-size: 16px;
     background: white;
-    width: 150px;
-    height: 32px;
-    margin-top: 10px;
+    width: 125px;
+    height: 37px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     cursor: pointer;
 }
