@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is needed to create a structured page layout based on the importance of the content.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    1. "block" respects dimensions such as height and width while "inline" does not.
+    2. "block" takes up the entire width available while "inline" only takes up space as needed.
 
 3. What are the 4 areas of the box model?
 
+    Content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+    Git allows a team to work remotely on a project while keeping track of progress made by each team member, and it allows all team members' work to be pushed to one centralized location such as GitHub. Git is crucial for version control.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

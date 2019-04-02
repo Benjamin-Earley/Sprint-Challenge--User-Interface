@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+header .logo {
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: rgb(136, 127, 255);
+}
+
+.container .home-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +139,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes #box1 {
+    background: teal;
+}
+
+.middle-content .boxes #box2 {
+    background: gold;
+}
+
+.middle-content .boxes #box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes #box4 {
+    background: coral;
+}
+
+.middle-content .boxes #box5 {
+    background: crimson;
+}
+
+.middle-content .boxes #box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes #box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes #box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes #box9 {
+    background: indigo;
+}
+
+.middle-content .boxes #box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +218,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*About Page Content*/
+
+.container-about {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about .about-img {
+    margin-top: 40px;
+}
+
+.top-section {
+    border-bottom: 1px dashed black;
+}
+
+.top-section .ts-text {
+    margin: 20px 2% 20px;
+}
+
+.mid-section {
+    display: flex;
+    margin: 10px 2% 0 2%;
+    justify-content: space-between;
+}
+ 
+.mid-section .m-s {
+    width: 370px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 45px;
+    flex-direction: column;
+}
+
+.mid-section2 {
+    display: flex;
+    margin: 0 2% 0 2%;
+    justify-content: space-between;
+}
+
+.mid-section2 .m-s {
+    width: 370px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 45px;
+    flex-direction: column;
+}
+
+.mid-imgs {
+    padding-bottom: 10px;
+}
+
+.bottom-section {
+    margin: 0 2% 40px;
+}
+
+.m-s button {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    background: white;
+    width: 125px;
+    height: 37px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
